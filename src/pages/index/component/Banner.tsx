@@ -1,7 +1,7 @@
 export default function Banner(props: any) {
   if (props.second) {
     return (
-      <div className="flex justify-between items-center bg-amber-300/20 xl:max-w-7xl xl:mx-auto">
+      <div className="flex justify-between items-center bg-amber-300/20 xl:max-w-[78rem] xl:mx-auto">
         <img
           className="w-32 object-cover"
           src="https://imgs.search.brave.com/YdNsLOPmCGP72pB5P3ex-bfs8HdlNZC1oDbKPZcwtb0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b25seWdmeC5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTYv/MDUvY3VwLWNvZmZl/ZS1zdGFpbi0xLTMw/MHgyODMucG5n"
@@ -36,7 +36,7 @@ export default function Banner(props: any) {
     );
   } else {
     return (
-      <div className="flex justify-between items-center bg-amber-300/20 xl:max-w-7xl xl:mx-auto">
+      <div className="flex justify-between items-center bg-amber-300/20 xl:max-w-[78rem] xl:mx-auto">
         <img
           className="w-32 object-cover"
           src="https://imgs.search.brave.com/YdNsLOPmCGP72pB5P3ex-bfs8HdlNZC1oDbKPZcwtb0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b25seWdmeC5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTYv/MDUvY3VwLWNvZmZl/ZS1zdGFpbi0xLTMw/MHgyODMucG5n"
