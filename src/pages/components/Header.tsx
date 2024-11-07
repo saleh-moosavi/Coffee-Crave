@@ -17,7 +17,7 @@ export default function Header() {
   }, []);
   if (windowSize > 769) {
     return (
-      <div className="flex bg-black justify-between items-center py-4 px-10 fixed top-0 right-0 left-0">
+      <div className="flex justify-between items-center py-4 px-10 fixed top-0 right-0 left-0 bg-black/30 backdrop-blur-sm shadow-md">
         <p className="text-lg font-bold text-white cursor-pointer">CoffeeApp</p>
         <ul className="flex gap-x-5 items-center text-white font-semibold z-50 *:cursor-pointer">
           <li>Home</li>
@@ -33,7 +33,7 @@ export default function Header() {
     );
   } else {
     return (
-      <nav className="flex justify-between items-center bg-black px-5 font-bold py-5 fixed top-0 right-0 left-0 shadow-md backdrop-blur-md">
+      <nav className="flex justify-between items-center bg-black/30 px-5 font-bold py-5 fixed top-0 right-0 left-0 shadow-md backdrop-blur-sm">
         <p className="text-lg font-bold text-white cursor-pointer">CoffeeApp</p>
         <BiMenu
           className="w-6 h-6 cursor-pointer text-white hover:scale-110 transition-all duration-300"
