@@ -4,12 +4,12 @@ import Menu from "./component/Menu";
 
 export default function HomeIndex() {
   return (
-    <div className="bg-amber-800/5">
+    <div>
       <Hero />
       <Menu />
       <Banner />
       <Menu />
-      <Banner second/>
+      <Banner second />
     </div>
   );
 }
