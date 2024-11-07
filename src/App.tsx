@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomeIndex from "./pages/index/component/HomeIndex";
+import HomeIndex from "./pages/index/HomeIndex";
 import Header from "./pages/components/Header";
 
 function App() {
