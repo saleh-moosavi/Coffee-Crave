@@ -5,7 +5,7 @@ import Menu from "./component/Menu";
 
 export default function HomeIndex() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Hero />
       <Menu />
       <Banner />

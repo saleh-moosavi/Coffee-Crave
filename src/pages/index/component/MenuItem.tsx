@@ -9,7 +9,7 @@ export default function MenuItem() {
           src="https://imgs.search.brave.com/YEeR9NxqYD7Xy0Rvu0FyiKpLkM4Di3aDVT6p9kB_gHI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE5/OTQ2NzM0NC9waG90/by9jdXAtb2YtY29m/ZmVlLXdpdGgtaGVh/cnQtc2hhcGUtc21v/a2UtYW5kLWNvZmZl/ZS1iZWFucy1vbi1i/dXJsYXAtc2Fjay1v/bi1vbGQtd29vZGVu/LWJhY2tncm91bmQu/d2VicD9iPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9ZmkwelVC/YmpuNnUzOVAyMUJ5/ME1oSFlPUGdSajdi/Ul8wNTFuWXRPUmEt/MD0"
         />
         <i className="absolute top-0 right-0 text-white p-2 text-3xl hover:text-red-400 cursor-pointer transition-all duration-300 opacity-50 hover:opacity-100">
-          <FaHeart className="w-6 h-6"/>
+          <FaHeart className="w-6 h-6" />
         </i>
       </div>
       <h3 className="text-sm font-semibold">Lungo Coffee</h3>

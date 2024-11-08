@@ -32,7 +32,7 @@ export default function Footer() {
           </ul>
         </ul>
       </div>
-      <h2 className="bg-amber-950 -mt-2 text-white text-center font-semibold">
+      <h2 className="bg-amber-950 -mt-2 pb-2 text-white text-center font-semibold">
         2024 All Rights Reserved
       </h2>
     </>
