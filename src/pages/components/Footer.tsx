@@ -18,16 +18,16 @@ export default function Footer() {
           <h3 className="md:text-lg font-bold">Social Media</h3>
           <ul className="flex gap-x-7 mt-3 *:cursor-pointer">
             <li className="text-xs font-semibold md:text-base">
-              <BsTwitterX className="w-5 h-5" />
+              <BsTwitterX className="w-5 h-5 hover:-translate-y-1 transition-all duration-300" />
             </li>
             <li className="text-xs font-semibold md:text-base">
-              <BsFacebook className="w-5 h-5" />
+              <BsFacebook className="w-5 h-5 hover:-translate-y-1 transition-all duration-300" />
             </li>
             <li className="text-xs font-semibold md:text-base">
-              <BsInstagram className="w-5 h-5" />
+              <BsInstagram className="w-5 h-5 hover:-translate-y-1 transition-all duration-300" />
             </li>
             <li className="text-xs font-semibold md:text-base">
-              <BsYoutube className="w-6 h-6" />
+              <BsYoutube className="w-6 h-6 hover:-translate-y-1 transition-all duration-300" />
             </li>
           </ul>
         </ul>

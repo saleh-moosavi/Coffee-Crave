@@ -1,4 +1,7 @@
-export default function Banner(props: any) {
+type BannerType = {
+  second?: boolean;
+};
+export default function Banner(props: BannerType) {
   if (props.second) {
     return (
       <div className="flex justify-between items-center bg-amber-300/20 xl:max-w-[78rem] xl:mx-auto">
@@ -21,7 +24,7 @@ export default function Banner(props: any) {
                 type="email"
                 placeholder="Email Address"
               />
-              <button className="bg-amber-950 px-2 py-1 rounded-full text-white text-xs md:text-base font-semibold">
+              <button className="bg-amber-950 px-2 py-1 rounded-full text-white text-xs font-bold hover:shadow-md hover:shadow-amber-800/50 transition-all duration-300">
                 Subscribe
               </button>
             </form>
@@ -47,7 +50,7 @@ export default function Banner(props: any) {
           <h2 className="text-sm md:text-lg font-bold text-amber-950">
             Check Out Our Bestbr <br /> Coffee Betans
           </h2>
-          <button className="bg-amber-950 text-white text-xs font-bold px-5 py-2 rounded-full mt-3">
+          <button className="bg-amber-950 text-white text-xs font-bold px-5 py-2 rounded-full mt-3 hover:shadow-md hover:shadow-amber-800/50 transition-all duration-300">
             Explor Our Products »
           </button>
         </div>
