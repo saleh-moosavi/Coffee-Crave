@@ -7,9 +7,9 @@ export default function HomeIndex() {
   return (
     <div className="overflow-x-hidden">
       <Hero />
-      <Menu />
+      <Menu title="OUR SPECIAL COFFEE" />
       <Banner />
-      <Menu />
+      <Menu title="OUR DELICIOUS DESSERT" />
       <Banner second />
       <Comments />
     </div>
